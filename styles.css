@@ -707,4 +707,8 @@ footer{
 .clientsection2{
   height: 360px !important;
 }
+
+#centralShift{
+  left: 0;
+}
 }
