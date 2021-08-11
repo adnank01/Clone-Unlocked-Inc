@@ -540,7 +540,7 @@ footer{
   justify-content: center;
 }
 
-@media  screen and  (max-width:992px){
+@media only screen and  (max-width:992px){
   .container{
     margin: 0;
   }
@@ -629,7 +629,7 @@ footer{
 
 }
 
-@media  screen and (max-width:768px){
+@media only screen and (max-width:768px){
   .container{
     margin: auto;
   }
@@ -639,10 +639,23 @@ footer{
 }
 
 .herodiv {
-  height: 446.6px;
+  height: auto;
+}
+.succesheight{
+  height: auto !important;
+  /* width: 50%; */
+}
+.herodiv1 {
+  height: auto;
+}
+  .service-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 .hero-image img {
-  width: 400px;
+  width: 100% !important;
   height: 400px;
   
 }
@@ -668,7 +681,7 @@ footer{
 
 .service-image img {
  
-  width: 400px !important;
+  width: 100% !important;
   height: 400px !important;
 }
 .row-mod2 {
@@ -696,19 +709,23 @@ footer{
   
 }
 .succesheight {
-  height: 455px;
+  height: auto;
 }
 .clientsection {
   background-image:none;
 }
-.clientsection1 {
-  height: 360px !important;
-}
-.clientsection2{
-  height: 360px !important;
-}
-
 #centralShift{
   left: 0;
 }
+.clientsection1 {
+  height: auto !important;
 }
+.clientsection2 {
+  height: auto !important;
+  padding-top: 24px;
+}
+
+
+
+}
+
